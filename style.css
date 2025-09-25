@@ -1,6 +1,43 @@
 nav li{
     display: inline;
+    padding: 30px;
 }
 body{
     font-family: "Roboto", sans-serif;
+}
+.navigation{
+    background-color: pink;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+text-decoration: none;
+}
+.info{
+    text-align: center;
+}
+.info ul {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 0;
+}
+.info ul li {
+    list-style-position: inside;
+    text-align: left;
+}
+.info2{
+    margin-left: 100px;
+}
+.header{
+    color: rgb(161, 52, 70);
+}
+footer{
+    background-color: pink;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
 }
